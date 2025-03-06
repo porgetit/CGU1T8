@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "IS623-ImageTools"
+version = "0.1.0"
+description = "A simple library for image processing and visualization worked in the course IS623 - Computación Gráfica (Graphical Computation) directed by Professor Francisco Alejandro Medina Aguirre at Universidad Tecnológica de Pereira (UTP) in Pereira, Colombia. This library's being developed by Kevin Esguerra Cardona, student of the course."
+authors = [
+    {name = "Kevin", email = "kevin.esguerra@utp.edu.co"}
+]
+readme = "README.md"
+keywords = ["image", "processing", "visualization", "computational", "graphical", "computing", "computación", "gráfica", "computacional"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+license = {text = "MIT"}
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "Pillow"
+]
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["utilities_for_graphical_computing"]
+
+
